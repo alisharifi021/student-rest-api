@@ -10,13 +10,17 @@ app.use(express.json());
 app.use(express.static(
   path.join(__dirname, "public")
 ));
-
 let students = [
   { id: 1, name: "Asha", course: "HTML" },
-  { id: 2, name: "Rahul", course: "JavaScript" }
+  { id: 2, name: "Rahul", course: "JavaScript" },
+  { id: 3, name: "Ali", course: "CSS" },
+  { id: 4, name: "Sara", course: "Python" },
+  { id: 5, name: "James", course: "Java" },
+  { id: 6, name: "Maya", course: "MySQL" },
+  { id: 7, name: "Derek", course: "Node.js" }
 ];
 
-let nextId = 3;
+let nextId = 8;
 
 
 //get the all students 
